@@ -1,0 +1,51 @@
+@media screen and (min-width:1025px) {
+
+  /* header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: auto 50px;
+  }
+
+  .contact,
+  .links,
+  .title {
+    width: 32%;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    text-align: start;
+    margin-right: 20px;
+  }
+
+  .title h1 {
+    color: #FFEE00;
+    text-align: center;
+    transition: .4s;
+  }
+
+  .title h1:hover {
+  }
+
+  .contact {
+    text-align: end;
+  }
+
+  .contact a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+  }
+
+  #menu-hamburguer {
+    display: none;
+  }
+
+
+
+
+}
